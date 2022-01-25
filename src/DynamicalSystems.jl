@@ -2,7 +2,7 @@ module DynamicalSystems
 
 using DifferentialEquations
 
-export lorenz!, rossler!, thomas!, get_system
+export lorenz!, rossler!, thomas!, get_system, LorenzParams
 
 struct LorenzParams
     σ
